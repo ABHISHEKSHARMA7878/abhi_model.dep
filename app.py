@@ -7,7 +7,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 
 # Load the trained model
-import joblib
 model = joblib.load('logistic_regression_model.pkl')
 
 def main():
